@@ -6,3 +6,4 @@
     +> '--name': longhand
     https://www.pyimagesearch.com/2018/03/12/python-argparse-command-line-arguments/
 3. Hai lenh imshow() va waitKey() di lien voi nhau. Khong co mot trong hai lenh thi anh khong duoc hien thi
+4. Anh phai cung thu muc voi file .py
