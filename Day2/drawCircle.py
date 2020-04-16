@@ -12,9 +12,10 @@ cv2.imshow('circle', canvas)
 
 for i in range(0, 25):
   radius = np.random.randint(5, high = 200)
-	color = np.random.randint(0, high = 256, size = (3,)).tolist() # list  color 3-dimensional
-	pt = np.random.randint(0, high = 300, size = (2,)) 
-	cv2.circle(canvas, tuple(pt), radius, color, -1)
+  color = np.random.randint(0, high = 256, size = (3,)).tolist() # list  color 3-dimensional
+  pt = np.random.randint(0, high = 300, size = (2,)) 
+ cv2.circle(canvas, tuple(pt), radius, color, -1)
+
 cv2.imshow('many circle', canvas)
 
 cv2.waitKey(0)
