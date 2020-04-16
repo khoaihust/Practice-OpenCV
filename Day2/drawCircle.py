@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-canvas = np.zeros((300, 300, 3), dtype = 'uint8') # 500 rows, 700 columns
+canvas = np.zeros((300, 300, 3), dtype = 'uint8') # 300 rows, 300 columns
 (centerX, centerY) = (canvas.shape[1] // 2, canvas.shape[0] // 2) # centerX, center Y is x, y coordinate 
 white = (255, 255, 255)
 
