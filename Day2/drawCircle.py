@@ -6,12 +6,12 @@ canvas = np.zeros((300, 300, 3), dtype = 'uint8') # 500 rows, 700 columns
 white = (255, 255, 255)
 
 for r in range(0, 175, 25):
-	cv2.circle(canvas, (centerX, centerY), r, white)
+  cv2.circle(canvas, (centerX, centerY), r, white)
 
 cv2.imshow('circle', canvas)
 
 for i in range(0, 25):
-	radius = np.random.randint(5, high = 200)
+  radius = np.random.randint(5, high = 200)
 	color = np.random.randint(0, high = 256, size = (3,)).tolist() # list  color 3-dimensional
 	pt = np.random.randint(0, high = 300, size = (2,)) 
 	cv2.circle(canvas, tuple(pt), radius, color, -1)
