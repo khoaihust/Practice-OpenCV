@@ -28,3 +28,4 @@ def resize(image, width = None, height = None, iter = cv2.INTER_AREA):
     resized = cv2.resize(image, dim, interpolation = iter)
 	
     return resized
+
