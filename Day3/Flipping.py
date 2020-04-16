@@ -17,4 +17,4 @@ cv2.imshow('Flipped Vertically', flipped)
 flipped = cv2.flip(image, -1)
 cv2.imshow('Flipped Horizontally & Vertically', flipped)
 
-cv2.waitKey(0)
+cv2.waitKey(0
