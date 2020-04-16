@@ -27,4 +27,4 @@ def resize(image, width = None, height = None, iter = cv2.INTER_AREA):
 		dim = (width, int(h*r))
 	resized = cv2.resize(image, dim, interpolation = iter)
 	
-	return resized
+	return resize
