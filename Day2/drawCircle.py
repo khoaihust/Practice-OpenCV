@@ -6,7 +6,7 @@ canvas = np.zeros((300, 300, 3), dtype = 'uint8') # 300 rows, 300 columns
 white = (255, 255, 255)
 
 for r in range(0, 175, 25):
-	cv2.circle(canvas, (centerX, centerY), r, white)
+  cv2.circle(canvas, (centerX, centerY), r, white)
 
 cv2.imshow('circle', canvas)
 cv2.waitKey(0)
